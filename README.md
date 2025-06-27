@@ -1,9 +1,10 @@
 # Women ConnecTech Hackathon Back-End
 
 ## How to run locally
-1. Install Go if not already installed: https://go.dev/doc/install
-2. Navigate to terminal in the project directory
-3. To install dependencies, run:
+1. Clone this repository onto your local machine
+2. Install Go if not already installed: https://go.dev/doc/install
+3. Navigate to terminal in the project directory
+4. To install dependencies, run:
 ```
 go mod download
 ```
