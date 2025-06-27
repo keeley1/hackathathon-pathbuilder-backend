@@ -1,4 +1,4 @@
-# WomenConnecTech Hackathon Back-End
+# Women ConnecTech Hackathon Back-End
 
 ## How to run locally
 1. Install Go if not already installed: https://go.dev/doc/install
