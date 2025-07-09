@@ -1,6 +1,7 @@
 package main
 
 import (
+	"hackathon-pathbuilder-backend/handlers"
 	"log"
 
 	"github.com/gin-contrib/cors"
@@ -15,7 +16,7 @@ func main() {
 	config.AllowOrigins = []string{"http://localhost:3000"}
 	router.Use(cors.New(config))
 
-	router.GET("/people", handlers.taskProgressHandler)
+	router.GET("/taskprogress", handlers.TaskProgressHandler)
 
 	err := router.Run(":8080")
 	if err != nil {
